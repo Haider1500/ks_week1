@@ -1,15 +1,9 @@
-function printData() {
-  console.log("Hello i am function ");
-}
-function printData() {
-  console.log("Hello i am function ");
-}
-function printData() {
-  console.log("Hello i am function ");
-}
-function printData() {
-  console.log("Hello i am function ");
-}
-function output() {
-  console.log("Hello i am new function");
+let isRight = true;
+
+if (isRight) {
+  console.log("It is right");
+} else if (!isRight) {
+  console.log("it is wrong!");
+} else {
+  console.log("incorrect condition");
 }
